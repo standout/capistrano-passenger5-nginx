@@ -61,10 +61,12 @@ These are:
 
 Here is an example for production.rb
 
-	set :nginx_server_name, 'app.example.com'
-	set :nginx_use_ssl, true
-	set :rails_env, 'production'
-	set :passenger_min_instances, 2
+```ruby
+set :nginx_server_name, 'app.example.com'
+set :nginx_use_ssl, true
+set :rails_env, 'production'
+set :passenger_min_instances, 2
+```
 
 
 ## After deploy
